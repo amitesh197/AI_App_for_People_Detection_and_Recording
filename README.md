@@ -40,5 +40,13 @@ This project is an AI-powered web application that utilizes TensorFlow.js for pe
 - [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework for rapidly building custom designs.
 - [OpenAI](https://openai.com/): A research laboratory consisting of the for-profit corporation OpenAI LP and its parent company, the non-profit OpenAI Inc.
 
+# If any error persists while starting the app, run the following and then re-run the application
+
+```
+npm install @fortawesome/fontawesome-svg-core
+npm install @tensorflow/tfjs-converter
+npm install @tensorflow/tfjs-core
+```
+
 ## Contributing
 Contributions are welcome! Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines.
