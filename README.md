@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI-Powered Web App for People Detection & Recording
 
-## Getting Started
+## Overview
+This project is an AI-powered web application that utilizes TensorFlow.js for people detection and recording features. It incorporates Tailwind CSS for styling and leverages OpenAI technology for enhanced functionalities.
 
-First, run the development server:
+## Features
+- **People Detection**: Utilizes TensorFlow.js for real-time detection of people within images or video streams.
+- **Recording**: Allows users to record video streams with detected people for further analysis or archival purposes.
+- **Tailwind CSS Integration**: Implements Tailwind CSS for responsive and aesthetically pleasing user interface design.
+- **OpenAI Integration**: Integrates OpenAI technology for additional features and enhancements.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Installation
+1. Clone the repository:
+   ```
+   git clone https://github.com/amitesh197/AI_App_for_People_Detection_and_Recording.git
+   ```
+2. Install dependencies:
+   ```
+   npm install
+   ```
+   or
+   ```
+   yarn install
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
+1. Start the development server:
+   ```
+   npm run dev
+   ```
+   or
+   ```
+   yarn dev
+   ```
+2. Access the web application through your browser at `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
+- [Next.js](https://nextjs.org/): A React framework for building server-rendered applications.
+- [TensorFlow.js](https://www.tensorflow.org/js): A JavaScript library for training and deploying machine learning models in the browser and on Node.js.
+- [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework for rapidly building custom designs.
+- [OpenAI](https://openai.com/): A research laboratory consisting of the for-profit corporation OpenAI LP and its parent company, the non-profit OpenAI Inc.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contributing
+Contributions are welcome! Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines.
